@@ -13,15 +13,15 @@ export const metadata: Metadata = {
   description:
     "Top-rated gym in Mukundapur, Kolkata with expert trainers, advanced equipment, and a friendly environment. Join A1 Gym Tech today and start your transformation.",
   keywords: "gym in Mukundapur, A1 Gym Tech, fitness center Kolkata, personal training, CrossFit, yoga, bodybuilding",
-  generator: "v0.app",
+  
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/favicon-32x32.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/favicon-32x32.png",
         media: "(prefers-color-scheme: dark)",
       },
     ],

@@ -158,7 +158,7 @@ export default function PricingSection() {
               className={`relative ${plan.popular ? "md:scale-105" : ""}`}
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-0 right-0 flex justify-center">
+                <div className="absolute -top-4 left-0 right-0 flex justify-center z-20">
                   <span className="bg-gradient-to-r from-[#2f7df9] to-[#5ba0ff] text-white px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
                     Most Popular
                   </span>

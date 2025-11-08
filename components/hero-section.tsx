@@ -20,7 +20,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen w-full pt-20 md:pt-32 px-4 sm:px-6 lg:px-8 xl:px-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#2f7df9]/10 via-white to-[#5ba0ff]/10 dark:from-[#2f7df9]/20 dark:via-gray-900 dark:to-[#2f7df9]/20"
+      className="relative min-h-screen w-full pt-20 px-4 sm:px-6 lg:px-8 xl:px-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#2f7df9]/10 via-white to-[#5ba0ff]/10 dark:from-[#2f7df9]/20 dark:via-gray-900 dark:to-[#2f7df9]/20"
     >
       {/* Animated gradient orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -77,7 +77,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          className="inline-block bg-[#2f7df9]/10 text-[#2f7df9] px-4 py-2 rounded-full mb-6 border border-[#2f7df9]/20"
+          className="inline-block bg-[#2f7df9]/10 text-[#2f7df9] px-4 py-1 rounded-full my-6 border border-[#2f7df9]/20"
         >
           <span className="text-sm font-semibold">Premium Fitness Experience</span>
         </motion.div>
